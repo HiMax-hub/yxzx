@@ -1,0 +1,8 @@
+{
+  "name": "雁讯咨询贷款CRM与业务工作台",
+  "description": "面向助贷与贷款咨询业务的全链路CRM与业务工作台，支持客户生命周期、电销协同、进件跟进、全功能贷后管理系统与财务结算",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

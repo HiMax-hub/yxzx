@@ -1,0 +1,14 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+# 环境变量文件不提交（含潜在敏感配置），仅提交 example 模板
+.env
+.env.*
+!.env.production.example
+!.env.development.example
+# 冒烟测试构建产物（由 test:smoke 生成，不提交）
+scripts/smoke-test.mjs
+scripts/superadmin-reset-test.mjs
